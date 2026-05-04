@@ -18,7 +18,7 @@
 int main(void) {
 
     int money; // 총액 저장하는 변수
-    int found = 0; // 조건 만족 여부 플래그 
+    bool found = 0; // 조건 만족 여부 플래그 
 
     scanf("%d", &money); // 가지고 있는 총액 입력받음
 
